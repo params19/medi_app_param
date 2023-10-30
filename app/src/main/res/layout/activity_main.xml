@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/d1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="22dp"
+        android:width="102dp"
+        android:height="94dp"
+        android:src="@drawable/dt1"
+        app:layout_constraintBottom_toTopOf="@+id/d2"
+        app:layout_constraintEnd_toStartOf="@+id/d4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo1" />
+
+    <ImageView
+        android:id="@+id/d2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="4dp"
+        android:width="102dp"
+        android:height="174dp"
+        android:src="@drawable/dt2"
+        app:layout_constraintBottom_toTopOf="@+id/d3"
+        app:layout_constraintEnd_toStartOf="@+id/d5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d1"
+        android:contentDescription="@string/todo2" />
+
+    <ImageView
+        android:id="@+id/d3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/dt3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/d6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d2"
+        android:contentDescription="@string/todo3" />
+
+    <ImageView
+        android:id="@+id/d4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/dt4"
+        app:layout_constraintBottom_toTopOf="@+id/d5"
+        app:layout_constraintEnd_toStartOf="@+id/d7"
+        app:layout_constraintStart_toEndOf="@+id/d1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo4" />
+
+    <ImageView
+        android:id="@+id/d5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/dt5"
+        app:layout_constraintBottom_toTopOf="@+id/d6"
+        app:layout_constraintEnd_toStartOf="@+id/d8"
+        app:layout_constraintStart_toEndOf="@+id/d2"
+        app:layout_constraintTop_toBottomOf="@+id/d4"
+        android:contentDescription="@string/todo5" />
+
+    <ImageView
+        android:id="@+id/d6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/dt6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/d9"
+        app:layout_constraintStart_toEndOf="@+id/d3"
+        app:layout_constraintTop_toBottomOf="@+id/d5"
+        android:contentDescription="@string/todo6" />
+
+    <ImageView
+        android:id="@+id/d7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/dt7"
+        app:layout_constraintBottom_toTopOf="@+id/d8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/d4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo7" />
+
+    <ImageView
+        android:id="@+id/d8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/dt8"
+        app:layout_constraintBottom_toTopOf="@+id/d9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/d5"
+        app:layout_constraintTop_toBottomOf="@+id/d7"
+        android:contentDescription="@string/todo8" />
+
+    <ImageView
+        android:id="@+id/d9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/dt9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/d6"
+        app:layout_constraintTop_toBottomOf="@+id/d8"
+        android:contentDescription="@string/todo9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
