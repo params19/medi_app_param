@@ -9,4 +9,13 @@
     <string name="todo7">TODO</string>
     <string name="todo8">TODO</string>
     <string name="todo9">TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="doctor_appointment">Doctor appointment, buy medicines, online consultaion with top doctor, and find nearby hospital</string>
+    <string name="continue_with_gmail">Continue with Gmail</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <string name="continue_with_Gmail">Continue with Gmail</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="continue_with_email_">Continue with Email</string>
 </resources>
