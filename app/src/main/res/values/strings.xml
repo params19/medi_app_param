@@ -36,4 +36,23 @@
     <string name="todo">TODO</string>
     <string name="__feature__">PLease login first to you Wellness Expert feature</string>
     <string name="_feature_">Please login first to use Wellness Expert Feature</string>
+    <string name="hello_user">Hello, User!</string>
+    <string name="appointment">Appointment</string>
+    <string name="hospital">Hospital</string>
+    <string name="intro">Hello, User!</string>
+    <string name="search_a_doctor_or_health_issue">🔍 Search a doctor or health issue</string>
+    <string name="todo11">TODO</string>
+    <string name="todo13">TODO</string>
+    <string name="todo14">TODO</string>
+    <string name="doctor">Doctor</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="todo15">TODO</string>
+    <string name="_3">3</string>
+    <string name="top_doctors">Top Doctors</string>
+    <string name="see_all">See all</string>
+    <string name="general_practitioner">General Practitioner</string>
+    <string name="dr_manas_jha">Dr. Manas Jha</string>
+    <string name="heart_surgeon">Heart Surgeon</string>
+    <string name="dr_dhruv_jha">Dr. Dhruv Jha</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
