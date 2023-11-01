@@ -55,4 +55,12 @@
     <string name="heart_surgeon">Heart Surgeon</string>
     <string name="dr_dhruv_jha">Dr. Dhruv Jha</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo21">TODO</string>
+    <string name="doctor_">Doctor</string>
+    <string name="search_a_doctor">🔍 Search a doctor</string>
+    <string name="recommended_by_you">Recommended by you</string>
+    <string name="nearby_you">Nearby you</string>
+    <string name="nearby_you_">Nearby You</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

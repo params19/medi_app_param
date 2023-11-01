@@ -15,5 +15,10 @@ class Sign_in_page : AppCompatActivity() {
             val intent = Intent(this, intro_page::class.java)
             startActivity(intent)
         }
+        val back=findViewById<TextView>(R.id.floatingActionButton)
+        back.setOnClickListener {
+            val intent1=Intent(this, MainActivity::class.java)
+            startActivity(intent1)
+        }
     }
 }

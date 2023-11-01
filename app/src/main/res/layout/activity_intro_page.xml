@@ -58,31 +58,32 @@
             android:layout_width="49dp"
             android:layout_height="43dp"
             android:background="@drawable/circle_notification"
-            android:padding="4dp"
+            android:padding="7dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.697"
+            app:layout_constraintHorizontal_bias="0.687"
             app:layout_constraintStart_toEndOf="@+id/textView12"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.252"
+            app:layout_constraintVertical_bias="0.231"
             app:srcCompat="@drawable/icon_bell" />
 
         <TextView
             android:id="@+id/textView29"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="16dp"
+            android:layout_height="18dp"
             android:layout_marginBottom="20dp"
-            android:background="@color/green"
-            android:padding="2dp"
+            android:background="@drawable/digit"
+            android:paddingStart="4.3dp"
+            android:paddingBottom="1dp"
             android:text="@string/_3"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageView17"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.691"
+            app:layout_constraintHorizontal_bias="0.7"
             app:layout_constraintStart_toEndOf="@+id/textView12"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.87" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -166,9 +167,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.333" />
 
     <TextView
         android:id="@+id/pharmacy_"
