@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Medicare_app_param"
         tools:targetApi="31">
         <activity
+            android:name=".last_page"
+            android:exported="false" />
+        <activity
             android:name=".About_doctors"
             android:exported="false" />
         <activity
